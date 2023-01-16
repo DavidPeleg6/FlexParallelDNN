@@ -1,0 +1,121 @@
+[68171] Initializing process group with: {'MASTER_ADDR': 'pytorch-set-1.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '45639', 'RANK': '1', 'WORLD_SIZE': '4'}
+[68173] Initializing process group with: {'MASTER_ADDR': 'pytorch-set-1.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '45639', 'RANK': '3', 'WORLD_SIZE': '4'}
+[68170] Initializing process group with: {'MASTER_ADDR': 'pytorch-set-1.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '45639', 'RANK': '0', 'WORLD_SIZE': '4'}
+[68172] Initializing process group with: {'MASTER_ADDR': 'pytorch-set-1.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '45639', 'RANK': '2', 'WORLD_SIZE': '4'}
+> initializing model parallel with size 1
+> initializing ddp with size 4
+> initializing pipeline with size 1
+[68173] rank = 3, world_size = 4
+[68170] rank = 0, world_size = 4
+[68172] rank = 2, world_size = 4
+[68171] rank = 1, world_size = 4
+name: seq.fc1.input_layer.weight, size: 401408
+name: seq.fc1.input_layer.bias, size: 512
+name: seq.fc2.input_layer.weight, size: 262144
+name: seq.fc2.input_layer.bias, size: 512
+name: seq.fc3.input_layer.weight, size: 262144
+name: seq.fc3.input_layer.bias, size: 512
+name: seq.fc4.input_layer.weight, size: 262144
+name: seq.fc4.input_layer.bias, size: 512
+name: seq.fc5.input_layer.weight, size: 262144
+name: seq.fc5.input_layer.bias, size: 512
+name: seq.fc6.input_layer.weight, size: 262144
+name: seq.fc6.input_layer.bias, size: 512
+name: seq.fc7.input_layer.weight, size: 5120
+name: seq.fc7.input_layer.bias, size: 10
+total trainable parameter amount: 1720330
+Net(
+  (seq): Sequential(
+    (fc1): DataParallelLayer(
+      gather_input=False, split_output=False, custom_layer_name=fc1, 
+      (input_layer): FullyShardedDataParallel(
+        rank=0, world_size=4, flatten_parameters=True, mixed_precision=True, reshard_after_forward=True, compute_dtype=torch.float16, buffer_dtype=torch.float16, fp32_reduce_scatter=False, compute_device=cudacpu_offload=False, move_grads_to_cpu=False, bucket_cap_mb=25, clear_autocast_cache=Falseforce_input_to_fp32=False
+        (_fsdp_wrapped_module): FlattenParamsWrapper(
+          (_fpw_module): Linear(in_features=784, out_features=512, bias=True)
+        )
+      )
+    )
+    (fc2): DataParallelLayer(
+      gather_input=False, split_output=False, custom_layer_name=fc2, 
+      (input_layer): FullyShardedDataParallel(
+        rank=0, world_size=4, flatten_parameters=True, mixed_precision=True, reshard_after_forward=True, compute_dtype=torch.float16, buffer_dtype=torch.float16, fp32_reduce_scatter=False, compute_device=cudacpu_offload=False, move_grads_to_cpu=False, bucket_cap_mb=25, clear_autocast_cache=Falseforce_input_to_fp32=False
+        (_fsdp_wrapped_module): FlattenParamsWrapper(
+          (_fpw_module): Linear(in_features=512, out_features=512, bias=True)
+        )
+      )
+    )
+    (fc3): DataParallelLayer(
+      gather_input=False, split_output=False, custom_layer_name=fc3, 
+      (input_layer): FullyShardedDataParallel(
+        rank=0, world_size=4, flatten_parameters=True, mixed_precision=True, reshard_after_forward=True, compute_dtype=torch.float16, buffer_dtype=torch.float16, fp32_reduce_scatter=False, compute_device=cudacpu_offload=False, move_grads_to_cpu=False, bucket_cap_mb=25, clear_autocast_cache=Falseforce_input_to_fp32=False
+        (_fsdp_wrapped_module): FlattenParamsWrapper(
+          (_fpw_module): Linear(in_features=512, out_features=512, bias=True)
+        )
+      )
+    )
+    (fc4): DataParallelLayer(
+      gather_input=False, split_output=False, custom_layer_name=fc4, 
+      (input_layer): FullyShardedDataParallel(
+        rank=0, world_size=4, flatten_parameters=True, mixed_precision=True, reshard_after_forward=True, compute_dtype=torch.float16, buffer_dtype=torch.float16, fp32_reduce_scatter=False, compute_device=cudacpu_offload=False, move_grads_to_cpu=False, bucket_cap_mb=25, clear_autocast_cache=Falseforce_input_to_fp32=False
+        (_fsdp_wrapped_module): FlattenParamsWrapper(
+          (_fpw_module): Linear(in_features=512, out_features=512, bias=True)
+        )
+      )
+    )
+    (fc5): DataParallelLayer(
+      gather_input=False, split_output=False, custom_layer_name=fc5, 
+      (input_layer): FullyShardedDataParallel(
+        rank=0, world_size=4, flatten_parameters=True, mixed_precision=True, reshard_after_forward=True, compute_dtype=torch.float16, buffer_dtype=torch.float16, fp32_reduce_scatter=False, compute_device=cudacpu_offload=False, move_grads_to_cpu=False, bucket_cap_mb=25, clear_autocast_cache=Falseforce_input_to_fp32=False
+        (_fsdp_wrapped_module): FlattenParamsWrapper(
+          (_fpw_module): Linear(in_features=512, out_features=512, bias=True)
+        )
+      )
+    )
+    (fc6): DataParallelLayer(
+      gather_input=False, split_output=False, custom_layer_name=fc6, 
+      (input_layer): FullyShardedDataParallel(
+        rank=0, world_size=4, flatten_parameters=True, mixed_precision=True, reshard_after_forward=True, compute_dtype=torch.float16, buffer_dtype=torch.float16, fp32_reduce_scatter=False, compute_device=cudacpu_offload=False, move_grads_to_cpu=False, bucket_cap_mb=25, clear_autocast_cache=Falseforce_input_to_fp32=False
+        (_fsdp_wrapped_module): FlattenParamsWrapper(
+          (_fpw_module): Linear(in_features=512, out_features=512, bias=True)
+        )
+      )
+    )
+    (fc7): DataParallelLayer(
+      gather_input=False, split_output=False, custom_layer_name=fc7, 
+      (input_layer): FullyShardedDataParallel(
+        rank=0, world_size=4, flatten_parameters=True, mixed_precision=True, reshard_after_forward=True, compute_dtype=torch.float16, buffer_dtype=torch.float16, fp32_reduce_scatter=False, compute_device=cudacpu_offload=False, move_grads_to_cpu=False, bucket_cap_mb=25, clear_autocast_cache=Falseforce_input_to_fp32=False
+        (_fsdp_wrapped_module): FlattenParamsWrapper(
+          (_fpw_module): Linear(in_features=512, out_features=10, bias=True)
+        )
+      )
+    )
+  )
+)
+initializing optimizer and loss  in global rank 3
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 0
+Epoch: 1 	Training Loss: 0.141817
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.531387805938721s, THROUGHPUT = 9186.409042415837 samples/s
+Epoch: 2 	Training Loss: 0.102683
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.659358024597168s, THROUGHPUT = 10601.909216420494 samples/s
+Epoch: 3 	Training Loss: 0.097740
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.724715948104858s, THROUGHPUT = 10480.869364332868 samples/s
+Epoch: 4 	Training Loss: 0.094162
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.580906867980957s, THROUGHPUT = 10750.940916831069 samples/s
+Epoch: 5 	Training Loss: 0.088596
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.555932998657227s, THROUGHPUT = 10799.26630045772 samples/s
+Epoch: 6 	Training Loss: 0.085861
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.651859283447266s, THROUGHPUT = 10615.975556172007 samples/s
+Epoch: 7 	Training Loss: 0.085253
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.811165809631348s, THROUGHPUT = 10324.950614996531 samples/s
+Epoch: 8 	Training Loss: 0.082104
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.625614643096924s, THROUGHPUT = 10665.501248583525 samples/s
+Epoch: 9 	Training Loss: 0.081367
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.431357145309448s, THROUGHPUT = 11046.962737815235 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 57.2616229057312s, AVG. THROUGHPUT = 10654.046713666079 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 57.28649091720581s, AVG. THROUGHPUT = 10652.73883058436 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 57.27557826042175s, AVG. THROUGHPUT = 10653.136438767782 samples/s
+Epoch: 10 	Training Loss: 0.081587
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.672725200653076s, THROUGHPUT = 10576.926940351785 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 57.24617624282837s, AVG. THROUGHPUT = 10651.478099551248 samples/s

@@ -1,0 +1,1053 @@
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2718 and data parallel seed: 0
+[15053] rank = 2, world_size = 4
+[15052] rank = 1, world_size = 4
+[15051] rank = 0, world_size = 4
+[15054] rank = 3, world_size = 4
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+iteration: 0, current latency: 0.0049, best latency: 0.0049 baseline latency: 0.0049
+iteration: 10, current latency: 0.0036, best latency: 0.0033 baseline latency: 0.0049
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 20, current latency: 0.0080, best latency: 0.0032 baseline latency: 0.0049
+no new strategies could be found
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2719 and data parallel seed: 1
+[16422] rank = 1, world_size = 4
+[16423] rank = 2, world_size = 4
+[16421] rank = 0, world_size = 4
+[16424] rank = 3, world_size = 4
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+iteration: 0, current latency: 0.0036, best latency: 0.0036 baseline latency: 0.0036
+iteration: 10, current latency: 0.0044, best latency: 0.0034 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 20, current latency: 0.0035, best latency: 0.0033 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 30, current latency: 0.0034, best latency: 0.0033 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 40, current latency: 0.0033, best latency: 0.0031 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 50, current latency: 0.0049, best latency: 0.0031 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 60, current latency: 0.0034, best latency: 0.0031 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 70, current latency: 0.0036, best latency: 0.0031 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 80, current latency: 0.0040, best latency: 0.0031 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 90, current latency: 0.0035, best latency: 0.0031 baseline latency: 0.0036
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+optimal latency: 0.003090667724609375, optimal strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+})])
+Epoch: 1 	Training Loss: 0.381670
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.634188175201416s, THROUGHPUT = 30077.319580373263 samples/s
+Epoch: 2 	Training Loss: 0.261166
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.5488488674163818s, THROUGHPUT = 31734.53590858734 samples/s
+Epoch: 3 	Training Loss: 0.236042
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4690375328063965s, THROUGHPUT = 33458.64139093968 samples/s
+Epoch: 4 	Training Loss: 0.178675
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4396638870239258s, THROUGHPUT = 34141.302315783614 samples/s
+Epoch: 5 	Training Loss: 0.152878
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4755654335021973s, THROUGHPUT = 33310.620379158405 samples/s
+Epoch: 6 	Training Loss: 0.140828
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4318947792053223s, THROUGHPUT = 34326.544599372406 samples/s
+Epoch: 7 	Training Loss: 0.122127
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.6150610446929932s, THROUGHPUT = 30433.524578845438 samples/s
+Epoch: 8 	Training Loss: 0.111337
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4843668937683105s, THROUGHPUT = 33113.10714780194 samples/s
+Epoch: 9 	Training Loss: 0.105636
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4445114135742188s, THROUGHPUT = 34026.73010272797 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 15.078994750976562s, AVG. THROUGHPUT = 32667.814179983252 samples/s
+Epoch: 10 	Training Loss: 0.101136
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.5337498188018799s, THROUGHPUT = 32046.94755132626 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 15.078373908996582s, AVG. THROUGHPUT = 32666.927355491625 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 15.093345165252686s, AVG. THROUGHPUT = 32635.30765370433 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 15.098078966140747s, AVG. THROUGHPUT = 32620.586212422408 samples/s
+Test Loss: 0.321061
+
+
+Test Accuracy (Overall): 90.6800% (9068/10000)
+Test Loss: 0.321061
+
+
+Test Accuracy (Overall): 90.6800% (9068/10000)
+Best ips: 32666.927355491625, Latency: 0.5112499396006266, Best strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+})]) 
+Test Loss: 0.321061
+
+
+Test Accuracy (Overall): 90.6800% (9068/10000)
+Test Loss: 0.321061
+
+
+Test Accuracy (Overall): 90.6800% (9068/10000)
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2723 and data parallel seed: 5
+[18731] rank = 2, world_size = 4
+[18730] rank = 1, world_size = 4
+[18732] rank = 3, world_size = 4
+[18729] rank = 0, world_size = 4
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+iteration: 0, current latency: 0.0039, best latency: 0.0039 baseline latency: 0.0039
+iteration: 10, current latency: 0.0040, best latency: 0.0039 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 20, current latency: 0.0049, best latency: 0.0031 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 30, current latency: 0.0037, best latency: 0.0031 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 40, current latency: 0.0035, best latency: 0.0031 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 50, current latency: 0.0050, best latency: 0.0031 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 60, current latency: 0.0037, best latency: 0.0031 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 70, current latency: 0.0041, best latency: 0.0031 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 80, current latency: 0.0031, best latency: 0.0031 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 90, current latency: 0.0034, best latency: 0.0031 baseline latency: 0.0039
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+optimal latency: 0.003098940849304199, optimal strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": true
+    }
+})])
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2729 and data parallel seed: 11
+[21780] rank = 0, world_size = 4
+[21782] rank = 2, world_size = 4
+[21781] rank = 1, world_size = 4
+[21783] rank = 3, world_size = 4
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+optimal latency: 0.0035111665725708007, optimal strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+})])
+Epoch: 1 	Training Loss: 0.365617
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.451568841934204s, THROUGHPUT = 33861.29446985466 samples/s
+Epoch: 2 	Training Loss: 0.255155
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.3887791633605957s, THROUGHPUT = 35392.23607089626 samples/s
+Epoch: 3 	Training Loss: 0.207575
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.5086820125579834s, THROUGHPUT = 32579.429986483607 samples/s
+Epoch: 4 	Training Loss: 0.162418
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4206335544586182s, THROUGHPUT = 34598.64779748292 samples/s
+Epoch: 5 	Training Loss: 0.137102
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.3788704872131348s, THROUGHPUT = 35646.56757527836 samples/s
+Epoch: 6 	Training Loss: 0.122664
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4033019542694092s, THROUGHPUT = 35025.961341007074 samples/s
+Epoch: 7 	Training Loss: 0.111785
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.3989081382751465s, THROUGHPUT = 35135.97401799693 samples/s
+Epoch: 8 	Training Loss: 0.107259
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4170517921447754s, THROUGHPUT = 34686.09988178774 samples/s
+Epoch: 9 	Training Loss: 0.098223
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4533779621124268s, THROUGHPUT = 33819.14497214443 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 14.240689039230347s, AVG. THROUGHPUT = 34545.67272670557 samples/s
+Epoch: 10 	Training Loss: 0.094630
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4165990352630615s, THROUGHPUT = 34697.1858489742 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 14.239212274551392s, AVG. THROUGHPUT = 34544.25419619062 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 14.238426685333252s, AVG. THROUGHPUT = 34546.65363146072 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 14.24793815612793s, AVG. THROUGHPUT = 34520.20048354544 samples/s
+Test Loss: 0.306568
+
+
+Test Accuracy (Overall): 91.3200% (9132/10000)
+Test Loss: 0.306568
+Test Loss: 0.306568
+
+
+
+Test Accuracy (Overall): 91.3200% (9132/10000)
+
+Test Accuracy (Overall): 91.3200% (9132/10000)
+Test Loss: 0.306568
+
+
+Test Accuracy (Overall): 91.3200% (9132/10000)
+Best ips: 34544.25419619062, Latency: 0.4721996784210205, Best strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+})]) 
+[83217] Initializing process group with: {'MASTER_ADDR': 'dudu-set-1.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '54499', 'RANK': '2', 'WORLD_SIZE': '4'}
+[83216] Initializing process group with: {'MASTER_ADDR': 'dudu-set-1.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '54499', 'RANK': '1', 'WORLD_SIZE': '4'}
+[83215] Initializing process group with: {'MASTER_ADDR': 'dudu-set-1.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '54499', 'RANK': '0', 'WORLD_SIZE': '4'}
+[83218] Initializing process group with: {'MASTER_ADDR': 'dudu-set-1.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '54499', 'RANK': '3', 'WORLD_SIZE': '4'}
+[83215] rank = 0, world_size = 4
+[83216] rank = 1, world_size = 4[83218] rank = 3, world_size = 4
+
+[83217] rank = 2, world_size = 4
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 3
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 18.256148099899292s, AVG. THROUGHPUT = 27013.10395669507 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 18.26082444190979s, AVG. THROUGHPUT = 26994.65066242061 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 18.260744333267212s, AVG. THROUGHPUT = 26992.204842770843 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 18.268508195877075s, AVG. THROUGHPUT = 26993.90134533813 samples/s
+Test Loss: 0.318690
+
+
+Test Accuracy (Overall): 90.9300% (9093/10000)
+[83217] rank = 2, world_size = 4
+Test Loss: 0.318690
+
+
+Test Accuracy (Overall): 90.9300% (9093/10000)
+[83215] rank = 0, world_size = 4
+Test Loss: 0.318690
+
+
+Test Accuracy (Overall): 90.9300% (9093/10000)
+[83216] rank = 1, world_size = 4
+Test Loss: 0.318690
+
+
+Test Accuracy (Overall): 90.9300% (9093/10000)
+[83218] rank = 3, world_size = 4
+initializing optimizer and loss  in global rank 0
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 3
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 17.77323579788208s, AVG. THROUGHPUT = 27683.20491816155 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 17.770177364349365s, AVG. THROUGHPUT = 27685.035586452763 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 17.771336317062378s, AVG. THROUGHPUT = 27684.401736388874 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 17.703747272491455s, AVG. THROUGHPUT = 27794.047821155098 samples/s
+Test Loss: 0.300540
+
+
+Test Accuracy (Overall): 91.0700% (9107/10000)
+Rank: 0, ips: 27683.20491816155, 
+Test Loss: 0.300540
+
+
+Test Accuracy (Overall): 91.0700% (9107/10000)
+Test Loss: 0.300540
+
+
+Test Accuracy (Overall): 91.0700% (9107/10000)
+Test Loss: 0.300540
+
+
+Test Accuracy (Overall): 91.0700% (9107/10000)
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2746 and data parallel seed: 28
+[106845] rank = 2, world_size = 4
+[106844] rank = 1, world_size = 4
+[106843] rank = 0, world_size = 4
+[106846] rank = 3, world_size = 4
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+optimal latency: 0.004474258422851563, optimal strategy:
+{'seq.0': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.1': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.2': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.3': {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}}
+Epoch: 1 	Training Loss: 0.354304
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4757449626922607s, THROUGHPUT = 33306.56803349681 samples/s
+Epoch: 2 	Training Loss: 0.265035
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4512171745300293s, THROUGHPUT = 33869.4999360917 samples/s
+Epoch: 3 	Training Loss: 0.202891
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4317309856414795s, THROUGHPUT = 34330.47164092611 samples/s
+Epoch: 4 	Training Loss: 0.166066
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4285967350006104s, THROUGHPUT = 34405.79051860916 samples/s
+Epoch: 5 	Training Loss: 0.136506
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.420928955078125s, THROUGHPUT = 34591.454994523316 samples/s
+Epoch: 6 	Training Loss: 0.126922
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4200739860534668s, THROUGHPUT = 34612.28110839388 samples/s
+Epoch: 7 	Training Loss: 0.125849
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4233343601226807s, THROUGHPUT = 34532.996165260476 samples/s
+Epoch: 8 	Training Loss: 0.111796
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.422800064086914s, THROUGHPUT = 34545.964145386395 samples/s
+Epoch: 9 	Training Loss: 0.102984
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4122695922851562s, THROUGHPUT = 34803.55327941915 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 14.416996479034424s, AVG. THROUGHPUT = 34120.232863813304 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 14.40847659111023s, AVG. THROUGHPUT = 34142.16312695839 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 14.419805526733398s, AVG. THROUGHPUT = 34109.48469245573 samples/s
+Epoch: 10 	Training Loss: 0.099200
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.5388545989990234s, THROUGHPUT = 31940.6395067941 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 14.426981449127197s, AVG. THROUGHPUT = 34093.92193289011 samples/s
+Test Loss: 0.314178
+
+
+Test Accuracy (Overall): 90.8600% (9086/10000)
+Test Loss: 0.314178
+
+
+Test Accuracy (Overall): 90.8600% (9086/10000)
+Test Loss: 0.314178
+
+
+Test Accuracy (Overall): 90.8600% (9086/10000)
+Best ips: 34093.92193289011, Latency: 0.5129515329996744, Best strategy:
+{'seq.0': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.1': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.2': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.3': {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}} 
+Test Loss: 0.314178
+
+
+Test Accuracy (Overall): 90.8600% (9086/10000)
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2759 and data parallel seed: 41
+[112364] rank = 3, world_size = 4
+[112362] rank = 1, world_size = 4
+[112363] rank = 2, world_size = 4
+[112361] rank = 0, world_size = 4
+finding optimal strategyfinding optimal strategyfinding optimal strategy
+
+
+finding optimal strategy
+optimal latency: 0.0033361434936523436, optimal strategy:
+{'seq.0': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.1': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.2': {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.3': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": true
+    }
+}}
+Epoch: 1 	Training Loss: 0.380390
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.5625677108764648s, THROUGHPUT = 31455.916859071658 samples/s
+Epoch: 2 	Training Loss: 0.258647
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.461090087890625s, THROUGHPUT = 33640.63613008334 samples/s
+Epoch: 3 	Training Loss: 0.216715
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.545795202255249s, THROUGHPUT = 31797.226390850054 samples/s
+Epoch: 4 	Training Loss: 0.173890
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4543800354003906s, THROUGHPUT = 33795.84345467755 samples/s
+Epoch: 5 	Training Loss: 0.148194
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4507157802581787s, THROUGHPUT = 33881.20586325503 samples/s
+Epoch: 6 	Training Loss: 0.136386
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.5944621562957764s, THROUGHPUT = 30826.695889847255 samples/s
+Epoch: 7 	Training Loss: 0.118451
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4403901100158691s, THROUGHPUT = 34124.0887855433 samples/s
+Epoch: 8 	Training Loss: 0.109081
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4895539283752441s, THROUGHPUT = 32997.79824260097 samples/s
+Epoch: 9 	Training Loss: 0.103892
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.466099739074707s, THROUGHPUT = 33525.686343154994 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 14.901217937469482s, AVG. THROUGHPUT = 33031.47426171017 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 14.904786109924316s, AVG. THROUGHPUT = 33020.64473543357 samples/s
+Epoch: 10 	Training Loss: 0.098680
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 1.4422705173492432s, THROUGHPUT = 34079.59838930683 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 14.908849954605103s, AVG. THROUGHPUT = 33012.4696348391 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 14.91616940498352s, AVG. THROUGHPUT = 32985.95063331908 samples/s
+Test Loss: 0.317858
+
+
+Test Accuracy (Overall): 90.8200% (9082/10000)
+Test Loss: 0.317858
+
+
+Test Accuracy (Overall): 90.8200% (9082/10000)
+Test Loss: 0.317858
+
+
+Test Accuracy (Overall): 90.8200% (9082/10000)
+Best ips: 33012.4696348391, Latency: 0.48075683911641437, Best strategy:
+{'seq.0': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.1': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.2': {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.3': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": true
+    }
+}} 
+Test Loss: 0.317858
+
+
+Test Accuracy (Overall): 90.8200% (9082/10000)
+[1492] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '54297', 'RANK': '2', 'WORLD_SIZE': '4'}
+[1491] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '54297', 'RANK': '1', 'WORLD_SIZE': '4'}
+[1490] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '54297', 'RANK': '0', 'WORLD_SIZE': '4'}
+[1493] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '54297', 'RANK': '3', 'WORLD_SIZE': '4'}
+[1490] rank = 0, world_size = 4
+[1491] rank = 1, world_size = 4
+[1493] rank = 3, world_size = 4
+[1492] rank = 2, world_size = 4
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 3
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 14.646344900131226s, AVG. THROUGHPUT = 33839.20440689629 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 14.64557695388794s, AVG. THROUGHPUT = 33831.77175844733 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 14.651142120361328s, AVG. THROUGHPUT = 33826.716657119934 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 14.658641815185547s, AVG. THROUGHPUT = 33799.75728207512 samples/s
+Test Loss: 0.308519
+
+
+Test Accuracy (Overall): 91.1000% (9110/10000)
+[1490] rank = 0, world_size = 4
+Test Loss: 0.308519
+
+
+Test Accuracy (Overall): 91.1000% (9110/10000)
+[1491] rank = 1, world_size = 4
+Test Loss: 0.308519
+
+
+Test Accuracy (Overall): 91.1000% (9110/10000)
+[1493] rank = 3, world_size = 4
+Test Loss: 0.308519
+
+
+Test Accuracy (Overall): 91.1000% (9110/10000)
+[1492] rank = 2, world_size = 4
+initializing optimizer and loss  in global rank 0
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 3initializing optimizer and loss  in global rank 2
+
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 14.098773717880249s, AVG. THROUGHPUT = 34889.656600347094 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 14.064221382141113s, AVG. THROUGHPUT = 34974.55821705792 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 14.069925785064697s, AVG. THROUGHPUT = 34966.05138711586 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 14.144474267959595s, AVG. THROUGHPUT = 34785.32997908837 samples/s
+Test Loss: 0.309026
+
+
+Test Accuracy (Overall): 91.0100% (9101/10000)
+Test Loss: 0.309026
+
+
+Test Accuracy (Overall): 91.0100% (9101/10000)
+Test Loss: 0.309026
+
+
+Test Accuracy (Overall): 91.0100% (9101/10000)
+Rank: 0, ips: 34785.32997908837, 
+Test Loss: 0.309026
+
+
+Test Accuracy (Overall): 91.0100% (9101/10000)

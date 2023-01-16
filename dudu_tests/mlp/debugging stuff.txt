@@ -1,0 +1,24 @@
+rank 0 entered evaluate with the following strategy:                                                                                                         │···············································
+{'seq0': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, 'input_is_parallel': False, 'row_linear': False,│···············································
+ 'split_output': False}, 'seq1': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, 'input_is_parallel': Fal│···············································
+se, 'row_linear': False, 'split_output': False}, 'seq2': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, │···············································
+'input_is_parallel': False, 'row_linear': False, 'split_output': False}, 'seq3': {'column_linear': False, 'data_parallel_input': True, 'gather_input': True, '│···············································
+gather_output': True, 'input_is_parallel': False, 'row_linear': False, 'split_output': False}}                                                                │···············································
+ rank 3 entered evaluate with the following strategy:                                                                                                         │···············································
+{'seq0': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, 'input_is_parallel': False, 'row_linear': False,│···············································
+ 'split_output': False}, 'seq1': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, 'input_is_parallel': Fal│···············································
+se, 'row_linear': False, 'split_output': False}, 'seq2': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, │···············································
+'input_is_parallel': False, 'row_linear': False, 'split_output': False}, 'seq3': {'column_linear': False, 'data_parallel_input': True, 'gather_input': True, '│···············································
+gather_output': True, 'input_is_parallel': False, 'row_linear': False, 'split_output': False}}                                                                │···············································
+ rank 1 entered evaluate with the following strategy:                                                                                                         │···············································
+{'seq0': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, 'input_is_parallel': False, 'row_linear': False,│···············································
+ 'split_output': False}, 'seq1': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, 'input_is_parallel': Fal│···············································
+se, 'row_linear': False, 'split_output': False}, 'seq2': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, │···············································
+'input_is_parallel': False, 'row_linear': False, 'split_output': False}, 'seq3': {'column_linear': False, 'data_parallel_input': True, 'gather_input': True, '│···············································
+gather_output': True, 'input_is_parallel': False, 'row_linear': False, 'split_output': False}}                                                                │···············································
+ rank 2 entered evaluate with the following strategy:                                                                                                         │···············································
+{'seq0': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, 'input_is_parallel': False, 'row_linear': False,│···············································
+ 'split_output': False}, 'seq1': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, 'input_is_parallel': Fal│···············································
+se, 'row_linear': False, 'split_output': False}, 'seq2': {'column_linear': False, 'data_parallel_input': True, 'gather_input': False, 'gather_output': False, │···············································
+'input_is_parallel': False, 'row_linear': False, 'split_output': False}, 'seq3': {'column_linear': False, 'data_parallel_input': True, 'gather_input': True, '│···············································
+gather_output': True, 'input_is_parallel': False, 'row_linear': False, 'split_output': False}}                

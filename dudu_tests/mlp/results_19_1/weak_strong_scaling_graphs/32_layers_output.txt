@@ -1,0 +1,261 @@
+[15054] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '58533', 'RANK': '0', 'WORLD_SIZE': '1'}
+[15054] rank = 0, world_size = 1
+initializing optimizer and loss  in global rank 0
+total trainable parameter amount: 32302090
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=1024, bias=True)
+      (4): Linear(in_features=1024, out_features=1024, bias=True)
+      (5): Linear(in_features=1024, out_features=1024, bias=True)
+      (6): Linear(in_features=1024, out_features=1024, bias=True)
+      (7): Linear(in_features=1024, out_features=1024, bias=True)
+      (8): Linear(in_features=1024, out_features=1024, bias=True)
+      (9): Linear(in_features=1024, out_features=1024, bias=True)
+      (10): Linear(in_features=1024, out_features=1024, bias=True)
+      (11): Linear(in_features=1024, out_features=1024, bias=True)
+      (12): Linear(in_features=1024, out_features=1024, bias=True)
+      (13): Linear(in_features=1024, out_features=1024, bias=True)
+      (14): Linear(in_features=1024, out_features=1024, bias=True)
+      (15): Linear(in_features=1024, out_features=1024, bias=True)
+      (16): Linear(in_features=1024, out_features=1024, bias=True)
+      (17): Linear(in_features=1024, out_features=1024, bias=True)
+      (18): Linear(in_features=1024, out_features=1024, bias=True)
+      (19): Linear(in_features=1024, out_features=1024, bias=True)
+      (20): Linear(in_features=1024, out_features=1024, bias=True)
+      (21): Linear(in_features=1024, out_features=1024, bias=True)
+      (22): Linear(in_features=1024, out_features=1024, bias=True)
+      (23): Linear(in_features=1024, out_features=1024, bias=True)
+      (24): Linear(in_features=1024, out_features=1024, bias=True)
+      (25): Linear(in_features=1024, out_features=1024, bias=True)
+      (26): Linear(in_features=1024, out_features=1024, bias=True)
+      (27): Linear(in_features=1024, out_features=1024, bias=True)
+      (28): Linear(in_features=1024, out_features=1024, bias=True)
+      (29): Linear(in_features=1024, out_features=1024, bias=True)
+      (30): Linear(in_features=1024, out_features=1024, bias=True)
+      (31): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+RANK = 0, GPU AMOUNT = 1, ELAPSED TIME = 880.7248089313507s, BATCH = 32, AVG. THROUGHPUT = 681.2806805823027 samples/s,  AVG. LATENCY = 88.07238883972168
+Test Loss: 98132496469.196793
+
+
+Test Accuracy (Overall): 12.1800% (1218/10000)
+[15054] rank = 0, world_size = 1
+initializing optimizer and loss  in global rank 0
+total trainable parameter amount: 32302090
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=1024, bias=True)
+      (4): Linear(in_features=1024, out_features=1024, bias=True)
+      (5): Linear(in_features=1024, out_features=1024, bias=True)
+      (6): Linear(in_features=1024, out_features=1024, bias=True)
+      (7): Linear(in_features=1024, out_features=1024, bias=True)
+      (8): Linear(in_features=1024, out_features=1024, bias=True)
+      (9): Linear(in_features=1024, out_features=1024, bias=True)
+      (10): Linear(in_features=1024, out_features=1024, bias=True)
+      (11): Linear(in_features=1024, out_features=1024, bias=True)
+      (12): Linear(in_features=1024, out_features=1024, bias=True)
+      (13): Linear(in_features=1024, out_features=1024, bias=True)
+      (14): Linear(in_features=1024, out_features=1024, bias=True)
+      (15): Linear(in_features=1024, out_features=1024, bias=True)
+      (16): Linear(in_features=1024, out_features=1024, bias=True)
+      (17): Linear(in_features=1024, out_features=1024, bias=True)
+      (18): Linear(in_features=1024, out_features=1024, bias=True)
+      (19): Linear(in_features=1024, out_features=1024, bias=True)
+      (20): Linear(in_features=1024, out_features=1024, bias=True)
+      (21): Linear(in_features=1024, out_features=1024, bias=True)
+      (22): Linear(in_features=1024, out_features=1024, bias=True)
+      (23): Linear(in_features=1024, out_features=1024, bias=True)
+      (24): Linear(in_features=1024, out_features=1024, bias=True)
+      (25): Linear(in_features=1024, out_features=1024, bias=True)
+      (26): Linear(in_features=1024, out_features=1024, bias=True)
+      (27): Linear(in_features=1024, out_features=1024, bias=True)
+      (28): Linear(in_features=1024, out_features=1024, bias=True)
+      (29): Linear(in_features=1024, out_features=1024, bias=True)
+      (30): Linear(in_features=1024, out_features=1024, bias=True)
+      (31): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+RANK = 0, GPU AMOUNT = 1, ELAPSED TIME = 877.9277186393738s, BATCH = 32, AVG. THROUGHPUT = 683.431709165319 samples/s,  AVG. LATENCY = 87.79269080162048
+Test Loss: 105320649850.880005
+
+
+Test Accuracy (Overall): 16.3000% (1630/10000)
+Rank: 0, ips: 683.431709165319, 
+[23926] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56789', 'RANK': '1', 'WORLD_SIZE': '2'}
+[23925] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56789', 'RANK': '0', 'WORLD_SIZE': '2'}
+[23925] rank = 0, world_size = 2
+[23926] rank = 1, world_size = 2
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 1
+total trainable parameter amount: 32302090
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=1024, bias=True)
+      (4): Linear(in_features=1024, out_features=1024, bias=True)
+      (5): Linear(in_features=1024, out_features=1024, bias=True)
+      (6): Linear(in_features=1024, out_features=1024, bias=True)
+      (7): Linear(in_features=1024, out_features=1024, bias=True)
+      (8): Linear(in_features=1024, out_features=1024, bias=True)
+      (9): Linear(in_features=1024, out_features=1024, bias=True)
+      (10): Linear(in_features=1024, out_features=1024, bias=True)
+      (11): Linear(in_features=1024, out_features=1024, bias=True)
+      (12): Linear(in_features=1024, out_features=1024, bias=True)
+      (13): Linear(in_features=1024, out_features=1024, bias=True)
+      (14): Linear(in_features=1024, out_features=1024, bias=True)
+      (15): Linear(in_features=1024, out_features=1024, bias=True)
+      (16): Linear(in_features=1024, out_features=1024, bias=True)
+      (17): Linear(in_features=1024, out_features=1024, bias=True)
+      (18): Linear(in_features=1024, out_features=1024, bias=True)
+      (19): Linear(in_features=1024, out_features=1024, bias=True)
+      (20): Linear(in_features=1024, out_features=1024, bias=True)
+      (21): Linear(in_features=1024, out_features=1024, bias=True)
+      (22): Linear(in_features=1024, out_features=1024, bias=True)
+      (23): Linear(in_features=1024, out_features=1024, bias=True)
+      (24): Linear(in_features=1024, out_features=1024, bias=True)
+      (25): Linear(in_features=1024, out_features=1024, bias=True)
+      (26): Linear(in_features=1024, out_features=1024, bias=True)
+      (27): Linear(in_features=1024, out_features=1024, bias=True)
+      (28): Linear(in_features=1024, out_features=1024, bias=True)
+      (29): Linear(in_features=1024, out_features=1024, bias=True)
+      (30): Linear(in_features=1024, out_features=1024, bias=True)
+      (31): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+RANK = 1, GPU AMOUNT = 2, ELAPSED TIME = 1008.6373794078827s, BATCH = 16, AVG. THROUGHPUT = 594.8743349825386 samples/s,  AVG. LATENCY = 100.8636385679245
+RANK = 0, GPU AMOUNT = 2, ELAPSED TIME = 1008.639621257782s, BATCH = 16, AVG. THROUGHPUT = 594.8728736346591 samples/s,  AVG. LATENCY = 100.86388046741486
+Test Loss: 95974387587.481598
+
+
+Test Accuracy (Overall): 10.7800% (1078/10000)
+[23925] rank = 0, world_size = 2
+Test Loss: 95974387587.481598
+
+
+Test Accuracy (Overall): 10.7800% (1078/10000)
+[23926] rank = 1, world_size = 2
+initializing optimizer and loss  in global rank 0
+total trainable parameter amount: 32302090
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=1024, bias=True)
+      (4): Linear(in_features=1024, out_features=1024, bias=True)
+      (5): Linear(in_features=1024, out_features=1024, bias=True)
+      (6): Linear(in_features=1024, out_features=1024, bias=True)
+      (7): Linear(in_features=1024, out_features=1024, bias=True)
+      (8): Linear(in_features=1024, out_features=1024, bias=True)
+      (9): Linear(in_features=1024, out_features=1024, bias=True)
+      (10): Linear(in_features=1024, out_features=1024, bias=True)
+      (11): Linear(in_features=1024, out_features=1024, bias=True)
+      (12): Linear(in_features=1024, out_features=1024, bias=True)
+      (13): Linear(in_features=1024, out_features=1024, bias=True)
+      (14): Linear(in_features=1024, out_features=1024, bias=True)
+      (15): Linear(in_features=1024, out_features=1024, bias=True)
+      (16): Linear(in_features=1024, out_features=1024, bias=True)
+      (17): Linear(in_features=1024, out_features=1024, bias=True)
+      (18): Linear(in_features=1024, out_features=1024, bias=True)
+      (19): Linear(in_features=1024, out_features=1024, bias=True)
+      (20): Linear(in_features=1024, out_features=1024, bias=True)
+      (21): Linear(in_features=1024, out_features=1024, bias=True)
+      (22): Linear(in_features=1024, out_features=1024, bias=True)
+      (23): Linear(in_features=1024, out_features=1024, bias=True)
+      (24): Linear(in_features=1024, out_features=1024, bias=True)
+      (25): Linear(in_features=1024, out_features=1024, bias=True)
+      (26): Linear(in_features=1024, out_features=1024, bias=True)
+      (27): Linear(in_features=1024, out_features=1024, bias=True)
+      (28): Linear(in_features=1024, out_features=1024, bias=True)
+      (29): Linear(in_features=1024, out_features=1024, bias=True)
+      (30): Linear(in_features=1024, out_features=1024, bias=True)
+      (31): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+initializing optimizer and loss  in global rank 1
+RANK = 1, GPU AMOUNT = 2, ELAPSED TIME = 1008.2080054283142s, BATCH = 16, AVG. THROUGHPUT = 595.1414446047924 samples/s,  AVG. LATENCY = 100.82069063186646
+RANK = 0, GPU AMOUNT = 2, ELAPSED TIME = 1008.3953053951263s, BATCH = 16, AVG. THROUGHPUT = 595.0314324343682 samples/s,  AVG. LATENCY = 100.83945395946503
+Test Loss: 74118207183.257599
+
+
+Test Accuracy (Overall): 9.9800% (998/10000)
+Rank: 0, ips: 595.0314324343682, 
+Test Loss: 74118207183.257599
+
+
+Test Accuracy (Overall): 9.9800% (998/10000)
+[34273] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '55801', 'RANK': '1', 'WORLD_SIZE': '3'}
+[34272] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '55801', 'RANK': '0', 'WORLD_SIZE': '3'}
+[34274] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '55801', 'RANK': '2', 'WORLD_SIZE': '3'}
+[34272] rank = 0, world_size = 3
+[34274] rank = 2, world_size = 3
+[34273] rank = 1, world_size = 3
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 0
+total trainable parameter amount: 32302090
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=1024, bias=True)
+      (4): Linear(in_features=1024, out_features=1024, bias=True)
+      (5): Linear(in_features=1024, out_features=1024, bias=True)
+      (6): Linear(in_features=1024, out_features=1024, bias=True)
+      (7): Linear(in_features=1024, out_features=1024, bias=True)
+      (8): Linear(in_features=1024, out_features=1024, bias=True)
+      (9): Linear(in_features=1024, out_features=1024, bias=True)
+      (10): Linear(in_features=1024, out_features=1024, bias=True)
+      (11): Linear(in_features=1024, out_features=1024, bias=True)
+      (12): Linear(in_features=1024, out_features=1024, bias=True)
+      (13): Linear(in_features=1024, out_features=1024, bias=True)
+      (14): Linear(in_features=1024, out_features=1024, bias=True)
+      (15): Linear(in_features=1024, out_features=1024, bias=True)
+      (16): Linear(in_features=1024, out_features=1024, bias=True)
+      (17): Linear(in_features=1024, out_features=1024, bias=True)
+      (18): Linear(in_features=1024, out_features=1024, bias=True)
+      (19): Linear(in_features=1024, out_features=1024, bias=True)
+      (20): Linear(in_features=1024, out_features=1024, bias=True)
+      (21): Linear(in_features=1024, out_features=1024, bias=True)
+      (22): Linear(in_features=1024, out_features=1024, bias=True)
+      (23): Linear(in_features=1024, out_features=1024, bias=True)
+      (24): Linear(in_features=1024, out_features=1024, bias=True)
+      (25): Linear(in_features=1024, out_features=1024, bias=True)
+      (26): Linear(in_features=1024, out_features=1024, bias=True)
+      (27): Linear(in_features=1024, out_features=1024, bias=True)
+      (28): Linear(in_features=1024, out_features=1024, bias=True)
+      (29): Linear(in_features=1024, out_features=1024, bias=True)
+      (30): Linear(in_features=1024, out_features=1024, bias=True)
+      (31): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)

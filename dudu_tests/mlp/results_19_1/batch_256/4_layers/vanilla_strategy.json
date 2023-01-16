@@ -1,0 +1,54 @@
+{
+    "seq.0": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.1": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.2": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.3": {
+        "DataParallel": {
+            "gather_input": true,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    }
+}

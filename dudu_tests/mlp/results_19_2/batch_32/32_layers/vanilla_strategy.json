@@ -1,0 +1,418 @@
+{
+    "seq.0": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.1": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.2": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.3": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.4": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.5": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.6": {
+        "DataParallel": {
+            "gather_input": true,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.7": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.8": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": true,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.9": {
+        "DataParallel": {
+            "gather_input": true,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.10": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": true,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.11": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": true,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.12": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.13": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.14": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.15": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.16": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.17": {
+        "DataParallel": {
+            "gather_input": true,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.18": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.19": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.20": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": true,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.21": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.22": {
+        "DataParallel": {
+            "gather_input": true,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.23": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": true,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.24": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.25": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": true,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.26": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": true,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.27": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": true
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.28": {
+        "DataParallel": {
+            "gather_input": true,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.29": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.30": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.31": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false,
+            "data_parallel_input": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": true,
+            "column_linear": false,
+            "gather_output": false
+        }
+    }
+}

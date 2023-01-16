@@ -1,0 +1,34 @@
+{
+    "seq.fc0": [
+        true,
+        true
+    ],
+    "seq.fc1": [
+        false,
+        false
+    ],
+    "seq.fc2": [
+        true,
+        false
+    ],
+    "seq.fc3": [
+        false,
+        false
+    ],
+    "seq.fc4": [
+        false,
+        true
+    ],
+    "seq.fc5": [
+        false,
+        false
+    ],
+    "seq.fc6": [
+        false,
+        false
+    ],
+    "seq.fc7": [
+        false,
+        false
+    ]
+}

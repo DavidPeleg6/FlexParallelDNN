@@ -1,0 +1,221 @@
+[34550] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '51407', 'RANK': '7', 'WORLD_SIZE': '8'}
+[34549] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '51407', 'RANK': '6', 'WORLD_SIZE': '8'}
+[34544] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '51407', 'RANK': '1', 'WORLD_SIZE': '8'}
+[34545] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '51407', 'RANK': '2', 'WORLD_SIZE': '8'}
+[34547] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '51407', 'RANK': '4', 'WORLD_SIZE': '8'}
+[34543] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '51407', 'RANK': '0', 'WORLD_SIZE': '8'}
+[34548] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '51407', 'RANK': '5', 'WORLD_SIZE': '8'}
+[34546] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '51407', 'RANK': '3', 'WORLD_SIZE': '8'}
+[34543] rank = 0, world_size = 8
+[34544] rank = 1, world_size = 8
+[34545] rank = 2, world_size = 8
+[34550] rank = 7, world_size = 8
+[34547] rank = 4, world_size = 8
+[34549] rank = 6, world_size = 8
+[34548] rank = 5, world_size = 8
+[34546] rank = 3, world_size = 8
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 6
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 5
+initializing optimizer and loss  in global rank 3
+total trainable parameter amount: 2913290
+initializing optimizer and loss  in global rank 7
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+initializing optimizer and loss  in global rank 4
+initializing optimizer and loss  in global rank 1
+RANK = 2, GPU AMOUNT = 8, ELAPSED TIME = 13.28007459640503s, BATCH = 256, AVG. THROUGHPUT = 45754.47310056677 samples/s,  AVG. LATENCY = 1.3279412984848022
+RANK = 4, GPU AMOUNT = 8, ELAPSED TIME = 13.276972770690918s, BATCH = 256, AVG. THROUGHPUT = 45728.63293618133 samples/s,  AVG. LATENCY = 1.3276158571243286
+RANK = 5, GPU AMOUNT = 8, ELAPSED TIME = 13.280028343200684s, BATCH = 256, AVG. THROUGHPUT = 45722.848265980356 samples/s,  AVG. LATENCY = 1.3279247283935547
+RANK = 7, GPU AMOUNT = 8, ELAPSED TIME = 13.280647277832031s, BATCH = 256, AVG. THROUGHPUT = 45750.47083796531 samples/s,  AVG. LATENCY = 1.328007173538208
+RANK = 3, GPU AMOUNT = 8, ELAPSED TIME = 13.2810959815979s, BATCH = 256, AVG. THROUGHPUT = 45714.31419375719 samples/s,  AVG. LATENCY = 1.3280549049377441RANK = 6, GPU AMOUNT = 8, ELAPSED TIME = 13.282230377197266s, BATCH = 256, AVG. THROUGHPUT = 45720.78893411504 samples/s,  AVG. LATENCY = 1.3281509160995484
+
+RANK = 1, GPU AMOUNT = 8, ELAPSED TIME = 13.280730247497559s, BATCH = 256, AVG. THROUGHPUT = 45722.50342212965 samples/s,  AVG. LATENCY = 1.3279777765274048
+RANK = 0, GPU AMOUNT = 8, ELAPSED TIME = 13.285463571548462s, BATCH = 256, AVG. THROUGHPUT = 45709.200497576494 samples/s,  AVG. LATENCY = 1.3284978151321412
+Test Loss: 0.305255
+
+
+Test Accuracy (Overall): 91.2100% (9121/10000)
+[34547] rank = 4, world_size = 8
+Test Loss: 0.305255
+
+
+Test Accuracy (Overall): 91.2100% (9121/10000)
+[34544] rank = 1, world_size = 8
+Test Loss: 0.305255
+
+
+Test Accuracy (Overall): 91.2100% (9121/10000)
+[34548] rank = 5, world_size = 8
+Test Loss: 0.305255
+
+
+Test Accuracy (Overall): 91.2100% (9121/10000)
+[34543] rank = 0, world_size = 8
+Test Loss: 0.305255
+
+
+Test Accuracy (Overall): 91.2100% (9121/10000)
+[34546] rank = 3, world_size = 8
+Test Loss: 0.305255
+
+
+Test Accuracy (Overall): 91.2100% (9121/10000)
+[34545] rank = 2, world_size = 8
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 0
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+Test Loss: 0.305255
+
+
+Test Accuracy (Overall): 91.2100% (9121/10000)
+[34549] rank = 6, world_size = 8
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 3
+initializing optimizer and loss  in global rank 4initializing optimizer and loss  in global rank 5
+
+initializing optimizer and loss  in global rank 6
+Test Loss: 0.305255
+
+
+Test Accuracy (Overall): 91.2100% (9121/10000)
+[34550] rank = 7, world_size = 8
+initializing optimizer and loss  in global rank 7
+RANK = 3, GPU AMOUNT = 8, ELAPSED TIME = 12.915282726287842s, BATCH = 256, AVG. THROUGHPUT = 46429.07596849912 samples/s,  AVG. LATENCY = 1.2914839744567872
+RANK = 1, GPU AMOUNT = 8, ELAPSED TIME = 12.998129606246948s, BATCH = 256, AVG. THROUGHPUT = 46261.29383451497 samples/s,  AVG. LATENCY = 1.2997541666030883
+RANK = 4, GPU AMOUNT = 8, ELAPSED TIME = 12.91545033454895s, BATCH = 256, AVG. THROUGHPUT = 46436.61088086215 samples/s,  AVG. LATENCY = 1.2914971351623534
+RANK = 6, GPU AMOUNT = 8, ELAPSED TIME = 12.891225814819336s, BATCH = 256, AVG. THROUGHPUT = 46485.33763197149 samples/s,  AVG. LATENCY = 1.2890355825424193
+RANK = 0, GPU AMOUNT = 8, ELAPSED TIME = 12.998437404632568s, BATCH = 256, AVG. THROUGHPUT = 46301.67919472789 samples/s,  AVG. LATENCY = 1.299793815612793
+RANK = 2, GPU AMOUNT = 8, ELAPSED TIME = 12.917333126068115s, BATCH = 256, AVG. THROUGHPUT = 46419.782352534436 samples/s,  AVG. LATENCY = 1.2916814804077148
+RANK = 5, GPU AMOUNT = 8, ELAPSED TIME = 12.91965389251709s, BATCH = 256, AVG. THROUGHPUT = 46406.107261025005 samples/s,  AVG. LATENCY = 1.2919201850891113
+RANK = 7, GPU AMOUNT = 8, ELAPSED TIME = 12.475880861282349s, BATCH = 256, AVG. THROUGHPUT = 47650.5587788672 samples/s,  AVG. LATENCY = 1.2475301265716552
+Test Loss: 0.295060
+
+
+Test Accuracy (Overall): 91.7400% (9174/10000)
+Test Loss: 0.295060
+
+
+Test Accuracy (Overall): 91.7400% (9174/10000)
+Test Loss: 0.295060
+
+
+Test Accuracy (Overall): 91.7400% (9174/10000)
+Test Loss: 0.295060
+
+
+Test Accuracy (Overall): 91.7400% (9174/10000)
+Test Loss: 0.295060
+
+
+Test Accuracy (Overall): 91.7400% (9174/10000)
+Test Loss: 0.295060
+
+
+Test Accuracy (Overall): 91.7400% (9174/10000)
+Test Loss: 0.295060
+
+
+Test Accuracy (Overall): 91.7400% (9174/10000)
+Test Loss: 0.295060
+
+
+Test Accuracy (Overall): 91.7400% (9174/10000)
+Rank: 0, ips: 46301.67919472789, 
+[42313] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56393', 'RANK': '5', 'WORLD_SIZE': '8'}
+[42314] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56393', 'RANK': '6', 'WORLD_SIZE': '8'}
+[42312] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56393', 'RANK': '4', 'WORLD_SIZE': '8'}
+[42310] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56393', 'RANK': '2', 'WORLD_SIZE': '8'}
+[42308] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56393', 'RANK': '0', 'WORLD_SIZE': '8'}
+[42315] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56393', 'RANK': '7', 'WORLD_SIZE': '8'}
+[42311] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56393', 'RANK': '3', 'WORLD_SIZE': '8'}[42309] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '56393', 'RANK': '1', 'WORLD_SIZE': '8'}
+
+[42308] rank = 0, world_size = 8
+[42313] rank = 5, world_size = 8
+[42309] rank = 1, world_size = 8
+[42312] rank = 4, world_size = 8[42315] rank = 7, world_size = 8
+
+[42310] rank = 2, world_size = 8
+[42311] rank = 3, world_size = 8
+[42314] rank = 6, world_size = 8
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 5
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+initializing optimizer and loss  in global rank 6
+initializing optimizer and loss  in global rank 4
+initializing optimizer and loss  in global rank 3
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 7
+initializing optimizer and loss  in global rank 1
+[44438] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '50335', 'RANK': '0', 'WORLD_SIZE': '8'}
+[44442] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '50335', 'RANK': '4', 'WORLD_SIZE': '8'}
+[44439] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '50335', 'RANK': '1', 'WORLD_SIZE': '8'}
+[44443] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '50335', 'RANK': '5', 'WORLD_SIZE': '8'}
+[44441] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '50335', 'RANK': '3', 'WORLD_SIZE': '8'}
+[44440] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '50335', 'RANK': '2', 'WORLD_SIZE': '8'}
+[44445] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '50335', 'RANK': '7', 'WORLD_SIZE': '8'}
+[44444] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.pytorch.pelegdav.svc.cluster.local', 'MASTER_PORT': '50335', 'RANK': '6', 'WORLD_SIZE': '8'}
+[44438] rank = 0, world_size = 8
+[44445] rank = 7, world_size = 8
+[44439] rank = 1, world_size = 8
+[44442] rank = 4, world_size = 8
+[44441] rank = 3, world_size = 8
+[44440] rank = 2, world_size = 8
+[44443] rank = 5, world_size = 8
+[44444] rank = 6, world_size = 8
+initializing optimizer and loss  in global rank 3
+initializing optimizer and loss  in global rank 4
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 2
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+initializing optimizer and loss  in global rank 7
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 5
+initializing optimizer and loss  in global rank 6

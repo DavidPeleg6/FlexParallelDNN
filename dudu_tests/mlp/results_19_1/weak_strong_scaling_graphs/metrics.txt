@@ -1,0 +1,2 @@
+based on: https://www.kth.se/blogs/pdc/2018/11/scalability-strong-and-weak-scaling/#:~:text=Strong%20scaling%20concerns%20the%20speedup,is%20governed%20by%20Gustafson%27s%20law
+speedup = t_1/t_N (latency for different amount of gpus)

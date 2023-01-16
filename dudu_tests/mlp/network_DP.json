@@ -1,0 +1,1042 @@
+{
+    "name": "Some Default",
+    "origin": "",
+    "cpu_info": {
+        "Architecture": "x86_64",
+        "CPU op-mode(s)": "32-bit, 64-bit",
+        "Byte Order": "Little Endian",
+        "Address sizes": "46 bits physical, 48 bits virtual",
+        "CPU(s)": "112",
+        "On-line CPU(s) list": "0-111",
+        "Thread(s) per core": "2",
+        "Core(s) per socket": "28",
+        "Socket(s)": "2",
+        "NUMA node(s)": "2",
+        "Vendor ID": "GenuineIntel",
+        "CPU family": "6",
+        "Model": "85",
+        "Model name": "Intel(R) Xeon(R) Platinum 8180 CPU @ 2.50GHz",
+        "Stepping": "4",
+        "CPU MHz": "2500.162",
+        "BogoMIPS": "5000.00",
+        "Virtualization": "VT-x",
+        "L1d cache": "1.8 MiB",
+        "L1i cache": "1.8 MiB",
+        "L2 cache": "56 MiB",
+        "L3 cache": "77 MiB",
+        "NUMA node0 CPU(s)": "0-27,56-83",
+        "NUMA node1 CPU(s)": "28-55,84-111",
+        "Vulnerability Itlb multihit": "KVM",
+        "Vulnerability L1tf": "Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable",
+        "Vulnerability Mds": "Mitigation; Clear CPU buffers; SMT vulnerable",
+        "Vulnerability Meltdown": "Mitigation; PTI",
+        "Vulnerability Spec store bypass": "Mitigation; Speculative Store Bypass disabled via prctl and seccomp",
+        "Vulnerability Spectre v1": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization",
+        "Vulnerability Spectre v2": "Mitigation; Full generic retpoline, IBPB conditional, IBRS_FW, STIBP conditional, RSB filling",
+        "Vulnerability Srbds": "Not affected",
+        "Vulnerability Tsx async abort": "Mitigation; Clear CPU buffers; SMT vulnerable",
+        "Flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm arat pln pts pku ospke md_clear flush_l1d"
+    },
+    "layers": [
+        {
+            "name": "DataParallel/op-1",
+            "optype": "aten::zeros",
+            "params": {},
+            "inputs": [],
+            "outputs": [
+                "t-1"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 210,
+                "flops": 0.0
+            },
+            "args": [
+                [
+                    1
+                ],
+                6,
+                false
+            ],
+            "runtime": {
+                "duration": 210,
+                "start": 3140052,
+                "end": 3140262
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 148, in forward\n    with torch.autograd.profiler.record_function(\"DataParallel.forward\"):\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/autograd/profiler.py\", line 432, in __init__\n    self.handle: torch.Tensor = torch.zeros(1)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/op-2",
+            "optype": "aten::empty",
+            "params": {},
+            "inputs": [],
+            "outputs": [
+                "t-2"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 3,
+                "flops": 0.0
+            },
+            "args": [
+                [
+                    16
+                ],
+                0
+            ],
+            "runtime": {
+                "duration": 3,
+                "start": 3140396,
+                "end": 3140399
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 148, in forward\n    with torch.autograd.profiler.record_function(\"DataParallel.forward\"):\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/autograd/profiler.py\", line 435, in __enter__\n    self.handle = torch.ops.profiler._record_function_enter(self.name)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Scatter/op-3",
+            "optype": "aten::chunk",
+            "params": {},
+            "inputs": [
+                "t-3"
+            ],
+            "outputs": [
+                "t-4",
+                "t-5"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 737,
+                "flops": 0.0
+            },
+            "args": [
+                2,
+                0
+            ],
+            "runtime": {
+                "duration": 737,
+                "start": 3140871,
+                "end": 3141608
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 158, in forward\n    inputs, kwargs = self.scatter(inputs, kwargs, self.device_ids)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 175, in scatter\n    return scatter_kwargs(inputs, kwargs, device_ids, dim=self.dim)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 44, in scatter_kwargs\n    inputs = scatter(inputs, target_gpus, dim) if inputs else []\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 36, in scatter\n    res = scatter_map(inputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 23, in scatter_map\n    return list(zip(*map(scatter_map, obj)))\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 19, in scatter_map\n    return Scatter.apply(target_gpus, None, dim, obj)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 96, in forward\n    outputs = comm.scatter(input, target_gpus, chunk_sizes, ctx.dim, streams)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 189, in scatter\n    return tuple(torch._C._scatter(tensor, devices, chunk_sizes, dim, streams))\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Scatter/op-4",
+            "optype": "aten::to",
+            "params": {},
+            "inputs": [
+                "t-5"
+            ],
+            "outputs": [
+                "t-6"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 380,
+                "flops": 0.0
+            },
+            "args": [
+                true,
+                false,
+                1
+            ],
+            "runtime": {
+                "duration": 380,
+                "start": 3141725,
+                "end": 3142105
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 158, in forward\n    inputs, kwargs = self.scatter(inputs, kwargs, self.device_ids)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 175, in scatter\n    return scatter_kwargs(inputs, kwargs, device_ids, dim=self.dim)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 44, in scatter_kwargs\n    inputs = scatter(inputs, target_gpus, dim) if inputs else []\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 36, in scatter\n    res = scatter_map(inputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 23, in scatter_map\n    return list(zip(*map(scatter_map, obj)))\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 19, in scatter_map\n    return Scatter.apply(target_gpus, None, dim, obj)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 96, in forward\n    outputs = comm.scatter(input, target_gpus, chunk_sizes, ctx.dim, streams)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 189, in scatter\n    return tuple(torch._C._scatter(tensor, devices, chunk_sizes, dim, streams))\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Broadcast/op-5",
+            "optype": "aten::flatten_dense_tensors",
+            "params": {},
+            "inputs": [],
+            "outputs": [
+                "t-7"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 794,
+                "flops": 0.0
+            },
+            "args": [],
+            "runtime": {
+                "duration": 794,
+                "start": 3142494,
+                "end": 3143288
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 167, in forward\n    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 172, in replicate\n    return replicate(module, device_ids, not torch.is_grad_enabled())\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 91, in replicate\n    param_copies = _broadcast_coalesced_reshape(params, devices, detach)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 71, in _broadcast_coalesced_reshape\n    tensor_copies = Broadcast.apply(devices, *tensors)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 23, in forward\n    outputs = comm.broadcast_coalesced(inputs, ctx.target_gpus)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 58, in broadcast_coalesced\n    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Broadcast/op-6",
+            "optype": "aten::empty",
+            "params": {},
+            "inputs": [],
+            "outputs": [
+                "t-8"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 7,
+                "flops": 0.0
+            },
+            "args": [
+                [
+                    407050
+                ],
+                6,
+                0
+            ],
+            "runtime": {
+                "duration": 7,
+                "start": 3143379,
+                "end": 3143386
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 167, in forward\n    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 172, in replicate\n    return replicate(module, device_ids, not torch.is_grad_enabled())\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 91, in replicate\n    param_copies = _broadcast_coalesced_reshape(params, devices, detach)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 71, in _broadcast_coalesced_reshape\n    tensor_copies = Broadcast.apply(devices, *tensors)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 23, in forward\n    outputs = comm.broadcast_coalesced(inputs, ctx.target_gpus)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 58, in broadcast_coalesced\n    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Broadcast/op-7",
+            "optype": "aten::copy_",
+            "params": {},
+            "inputs": [
+                "t-8",
+                "t-7"
+            ],
+            "outputs": [
+                "t-9"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 39,
+                "flops": 0.0
+            },
+            "args": [
+                true
+            ],
+            "runtime": {
+                "duration": 39,
+                "start": 3143471,
+                "end": 3143510
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 167, in forward\n    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 172, in replicate\n    return replicate(module, device_ids, not torch.is_grad_enabled())\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 91, in replicate\n    param_copies = _broadcast_coalesced_reshape(params, devices, detach)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 71, in _broadcast_coalesced_reshape\n    tensor_copies = Broadcast.apply(devices, *tensors)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 23, in forward\n    outputs = comm.broadcast_coalesced(inputs, ctx.target_gpus)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 58, in broadcast_coalesced\n    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Broadcast/op-8",
+            "optype": "aten::unflatten_dense_tensors",
+            "params": {},
+            "inputs": [
+                "t-9"
+            ],
+            "outputs": [
+                "t-10",
+                "t-11",
+                "t-12",
+                "t-13"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 1410,
+                "flops": 0.0
+            },
+            "args": [],
+            "runtime": {
+                "duration": 1410,
+                "start": 3143616,
+                "end": 3145026
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 167, in forward\n    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 172, in replicate\n    return replicate(module, device_ids, not torch.is_grad_enabled())\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 91, in replicate\n    param_copies = _broadcast_coalesced_reshape(params, devices, detach)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 71, in _broadcast_coalesced_reshape\n    tensor_copies = Broadcast.apply(devices, *tensors)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 23, in forward\n    outputs = comm.broadcast_coalesced(inputs, ctx.target_gpus)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 58, in broadcast_coalesced\n    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Broadcast/op-9",
+            "optype": "aten::view_as",
+            "params": {},
+            "inputs": [
+                "t-14",
+                "t-14"
+            ],
+            "outputs": [
+                "t-15"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 74,
+                "flops": 0.0
+            },
+            "args": [],
+            "runtime": {
+                "duration": 74,
+                "start": 3145138,
+                "end": 3145212
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 167, in forward\n    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 172, in replicate\n    return replicate(module, device_ids, not torch.is_grad_enabled())\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 91, in replicate\n    param_copies = _broadcast_coalesced_reshape(params, devices, detach)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 71, in _broadcast_coalesced_reshape\n    tensor_copies = Broadcast.apply(devices, *tensors)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Broadcast/op-10",
+            "optype": "aten::view_as",
+            "params": {},
+            "inputs": [
+                "t-16",
+                "t-16"
+            ],
+            "outputs": [
+                "t-17"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 66,
+                "flops": 0.0
+            },
+            "args": [],
+            "runtime": {
+                "duration": 66,
+                "start": 3145279,
+                "end": 3145345
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 167, in forward\n    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 172, in replicate\n    return replicate(module, device_ids, not torch.is_grad_enabled())\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 91, in replicate\n    param_copies = _broadcast_coalesced_reshape(params, devices, detach)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 71, in _broadcast_coalesced_reshape\n    tensor_copies = Broadcast.apply(devices, *tensors)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Broadcast/op-11",
+            "optype": "aten::view_as",
+            "params": {},
+            "inputs": [
+                "t-18",
+                "t-18"
+            ],
+            "outputs": [
+                "t-19"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 66,
+                "flops": 0.0
+            },
+            "args": [],
+            "runtime": {
+                "duration": 66,
+                "start": 3145410,
+                "end": 3145476
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 167, in forward\n    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 172, in replicate\n    return replicate(module, device_ids, not torch.is_grad_enabled())\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 91, in replicate\n    param_copies = _broadcast_coalesced_reshape(params, devices, detach)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 71, in _broadcast_coalesced_reshape\n    tensor_copies = Broadcast.apply(devices, *tensors)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Broadcast/op-12",
+            "optype": "aten::view_as",
+            "params": {},
+            "inputs": [
+                "t-20",
+                "t-20"
+            ],
+            "outputs": [
+                "t-21"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 72,
+                "flops": 0.0
+            },
+            "args": [],
+            "runtime": {
+                "duration": 72,
+                "start": 3145543,
+                "end": 3145615
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 167, in forward\n    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 172, in replicate\n    return replicate(module, device_ids, not torch.is_grad_enabled())\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 91, in replicate\n    param_copies = _broadcast_coalesced_reshape(params, devices, detach)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/replicate.py\", line 71, in _broadcast_coalesced_reshape\n    tensor_copies = Broadcast.apply(devices, *tensors)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Gather/op-13",
+            "optype": "aten::empty",
+            "params": {},
+            "inputs": [],
+            "outputs": [
+                "t-22"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 10,
+                "flops": 0.0
+            },
+            "args": [
+                [
+                    256,
+                    10
+                ],
+                6,
+                0,
+                0
+            ],
+            "runtime": {
+                "duration": 10,
+                "start": 3148248,
+                "end": 3148258
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 169, in forward\n    return self.gather(outputs, self.output_device)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 181, in gather\n    return gather(outputs, output_device, dim=self.dim)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 78, in gather\n    res = gather_map(outputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 63, in gather_map\n    return Gather.apply(target_device, dim, *outputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 75, in forward\n    return comm.gather(inputs, ctx.dim, ctx.target_device)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 235, in gather\n    return torch._C._gather(tensors, dim, destination)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Gather/op-14",
+            "optype": "aten::split_with_sizes",
+            "params": {},
+            "inputs": [
+                "t-22"
+            ],
+            "outputs": [
+                "t-23",
+                "t-24"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 510,
+                "flops": 0.0
+            },
+            "args": [
+                [
+                    128,
+                    128
+                ],
+                0
+            ],
+            "runtime": {
+                "duration": 510,
+                "start": 3148369,
+                "end": 3148879
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 169, in forward\n    return self.gather(outputs, self.output_device)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 181, in gather\n    return gather(outputs, output_device, dim=self.dim)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 78, in gather\n    res = gather_map(outputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 63, in gather_map\n    return Gather.apply(target_device, dim, *outputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 75, in forward\n    return comm.gather(inputs, ctx.dim, ctx.target_device)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 235, in gather\n    return torch._C._gather(tensors, dim, destination)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Gather/op-15",
+            "optype": "aten::copy_",
+            "params": {},
+            "inputs": [
+                "t-23",
+                "t-25"
+            ],
+            "outputs": [
+                "t-26"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 26,
+                "flops": 0.0
+            },
+            "args": [
+                true
+            ],
+            "runtime": {
+                "duration": 26,
+                "start": 3148968,
+                "end": 3148994
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 169, in forward\n    return self.gather(outputs, self.output_device)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 181, in gather\n    return gather(outputs, output_device, dim=self.dim)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 78, in gather\n    res = gather_map(outputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 63, in gather_map\n    return Gather.apply(target_device, dim, *outputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 75, in forward\n    return comm.gather(inputs, ctx.dim, ctx.target_device)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 235, in gather\n    return torch._C._gather(tensors, dim, destination)\n"
+            ]
+        },
+        {
+            "name": "DataParallel/DataParallel.forward/Gather/op-16",
+            "optype": "aten::copy_",
+            "params": {},
+            "inputs": [
+                "t-24",
+                "t-27"
+            ],
+            "outputs": [
+                "t-28"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 34,
+                "flops": 0.0
+            },
+            "args": [
+                true
+            ],
+            "runtime": {
+                "duration": 34,
+                "start": 3149085,
+                "end": 3149119
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 92, in train_and_test\n    output = model(data)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 169, in forward\n    return self.gather(outputs, self.output_device)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py\", line 181, in gather\n    return gather(outputs, output_device, dim=self.dim)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 78, in gather\n    res = gather_map(outputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/scatter_gather.py\", line 63, in gather_map\n    return Gather.apply(target_device, dim, *outputs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/_functions.py\", line 75, in forward\n    return comm.gather(inputs, ctx.dim, ctx.target_device)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/comm.py\", line 235, in gather\n    return torch._C._gather(tensors, dim, destination)\n"
+            ]
+        },
+        {
+            "name": "CrossEntropyLoss/op-17",
+            "optype": "aten::cross_entropy_loss",
+            "params": {},
+            "inputs": [
+                "t-22",
+                "t-29"
+            ],
+            "outputs": [
+                "t-30"
+            ],
+            "stats": {
+                "cycles": 0.0,
+                "instructions": 0.0,
+                "l1_read": 0.0,
+                "l1_write": 0.0,
+                "llc_access": 0.0,
+                "microseconds": 733,
+                "flops": 0.0
+            },
+            "args": [
+                1,
+                -100,
+                0.0
+            ],
+            "runtime": {
+                "duration": 733,
+                "start": 3149305,
+                "end": 3150038
+            },
+            "stack": [
+                "  File \"dp_mlp.py\", line 148, in <module>\n    train_and_test(args)\n",
+                "  File \"dp_mlp.py\", line 93, in train_and_test\n    loss = loss_model(output, target)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py\", line 1120, in _call_impl\n    result = forward_call(*input, **kwargs)\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/modules/loss.py\", line 1150, in forward\n    return F.cross_entropy(input, target, weight=self.weight,\n",
+                "  File \"/usr/local/lib/python3.8/dist-packages/torch/nn/functional.py\", line 2846, in cross_entropy\n    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)\n"
+            ]
+        }
+    ],
+    "tensors": {
+        "t-1": {
+            "name": "t-1",
+            "dtype": "FP32",
+            "shape": [
+                1
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-2": {
+            "name": "t-2",
+            "dtype": "UINT8",
+            "shape": [
+                16
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-4": {
+            "name": "t-4",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                1,
+                28,
+                28
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-5": {
+            "name": "t-5",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                1,
+                28,
+                28
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-3": {
+            "name": "t-3",
+            "dtype": "FP32",
+            "shape": [
+                256,
+                1,
+                28,
+                28
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-6": {
+            "name": "t-6",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                1,
+                28,
+                28
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-7": {
+            "name": "t-7",
+            "dtype": "FP32",
+            "shape": [
+                407050
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-8": {
+            "name": "t-8",
+            "dtype": "FP32",
+            "shape": [
+                407050
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-9": {
+            "name": "t-9",
+            "dtype": "FP32",
+            "shape": [
+                407050
+            ],
+            "const": false,
+            "view": "t-8",
+            "allocation": null
+        },
+        "t-10": {
+            "name": "t-10",
+            "dtype": "FP32",
+            "shape": [
+                512,
+                784
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-11": {
+            "name": "t-11",
+            "dtype": "FP32",
+            "shape": [
+                512
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-12": {
+            "name": "t-12",
+            "dtype": "FP32",
+            "shape": [
+                10,
+                512
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-13": {
+            "name": "t-13",
+            "dtype": "FP32",
+            "shape": [
+                10
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-15": {
+            "name": "t-15",
+            "dtype": "FP32",
+            "shape": [
+                512,
+                784
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-14": {
+            "name": "t-14",
+            "dtype": "FP32",
+            "shape": [
+                512,
+                784
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-17": {
+            "name": "t-17",
+            "dtype": "FP32",
+            "shape": [
+                512
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-16": {
+            "name": "t-16",
+            "dtype": "FP32",
+            "shape": [
+                512
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-19": {
+            "name": "t-19",
+            "dtype": "FP32",
+            "shape": [
+                10,
+                512
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-18": {
+            "name": "t-18",
+            "dtype": "FP32",
+            "shape": [
+                10,
+                512
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-21": {
+            "name": "t-21",
+            "dtype": "FP32",
+            "shape": [
+                10
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-20": {
+            "name": "t-20",
+            "dtype": "FP32",
+            "shape": [
+                10
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-22": {
+            "name": "t-22",
+            "dtype": "FP32",
+            "shape": [
+                256,
+                10
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-23": {
+            "name": "t-23",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                10
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-24": {
+            "name": "t-24",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                10
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-26": {
+            "name": "t-26",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                10
+            ],
+            "const": false,
+            "view": "t-23",
+            "allocation": null
+        },
+        "t-25": {
+            "name": "t-25",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                10
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-28": {
+            "name": "t-28",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                10
+            ],
+            "const": false,
+            "view": "t-24",
+            "allocation": null
+        },
+        "t-27": {
+            "name": "t-27",
+            "dtype": "FP32",
+            "shape": [
+                128,
+                10
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-30": {
+            "name": "t-30",
+            "dtype": "FP32",
+            "shape": [],
+            "const": false,
+            "view": null,
+            "allocation": null
+        },
+        "t-29": {
+            "name": "t-29",
+            "dtype": "INT64",
+            "shape": [
+                256
+            ],
+            "const": false,
+            "view": null,
+            "allocation": null
+        }
+    },
+    "inputs": [
+        "t-3",
+        "t-14",
+        "t-16",
+        "t-18",
+        "t-20",
+        "t-25",
+        "t-27",
+        "t-29"
+    ],
+    "outputs": []
+}

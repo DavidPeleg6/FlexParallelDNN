@@ -1,0 +1,1866 @@
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2733 and data parallel seed: 15
+[30278] rank = 2, world_size = 4
+[30276] rank = 0, world_size = 4
+[30277] rank = 1, world_size = 4
+[30279] rank = 3, world_size = 4
+finding optimal strategyfinding optimal strategy
+
+finding optimal strategy
+finding optimal strategy
+iteration: 0, current latency: 0.0017, best latency: 0.0017 baseline latency: 0.0017
+iteration: 10, current latency: 0.0015, best latency: 0.0014 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 20, current latency: 0.0020, best latency: 0.0014 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 30, current latency: 0.0016, best latency: 0.0014 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 40, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 50, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 60, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 70, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 80, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 90, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 100, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 110, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 120, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 130, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 140, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 150, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 160, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 170, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 180, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 190, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 200, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 210, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 220, current latency: 0.0016, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 230, current latency: 0.0022, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 240, current latency: 0.0020, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 250, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 260, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 270, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 280, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 290, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 300, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 310, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 320, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 330, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 340, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 350, current latency: 0.0019, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 360, current latency: 0.0019, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 370, current latency: 0.0020, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 380, current latency: 0.0024, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 390, current latency: 0.0021, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 400, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 410, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 420, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 430, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 440, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 450, current latency: 0.0025, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 460, current latency: 0.0024, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 470, current latency: 0.0025, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 480, current latency: 0.0016, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 490, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 500, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 510, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 520, current latency: 0.0016, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 530, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 540, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 550, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 560, current latency: 0.0020, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 570, current latency: 0.0020, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 580, current latency: 0.0020, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 590, current latency: 0.0020, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 600, current latency: 0.0021, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 610, current latency: 0.0020, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 620, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 630, current latency: 0.0014, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 640, current latency: 0.0015, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 650, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 660, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 670, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 680, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 690, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 700, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 710, current latency: 0.0013, best latency: 0.0013 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 720, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 730, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 740, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 750, current latency: 0.0016, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 760, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 770, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 780, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 790, current latency: 0.0014, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 800, current latency: 0.0018, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 810, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 820, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 830, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 840, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 850, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 860, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 870, current latency: 0.0014, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 880, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 890, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 900, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 910, current latency: 0.0015, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 920, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 930, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 940, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 950, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 960, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 970, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 980, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+iteration: 990, current latency: 0.0013, best latency: 0.0012 baseline latency: 0.0017
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+no new strategies could be found
+optimal strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+})])
+Epoch: 1 	Training Loss: 0.211307
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.176606178283691s, THROUGHPUT = 9708.891625767123 samples/s
+Epoch: 2 	Training Loss: 0.192266
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.008647680282593s, THROUGHPUT = 9980.282284944962 samples/s
+Epoch: 3 	Training Loss: 2.477724
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.175743818283081s, THROUGHPUT = 9710.247342590015 samples/s
+Epoch: 4 	Training Loss: 0.223900
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.081320524215698s, THROUGHPUT = 9861.016166013385 samples/s
+Epoch: 5 	Training Loss: 0.128985
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.978679418563843s, THROUGHPUT = 10030.308668800493 samples/s
+Epoch: 6 	Training Loss: 0.126372
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.017700910568237s, THROUGHPUT = 9965.267614860135 samples/s
+Epoch: 7 	Training Loss: 0.129720
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.40556001663208s, THROUGHPUT = 9361.866853841457 samples/s
+Epoch: 8 	Training Loss: 0.132818
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.034142255783081s, THROUGHPUT = 9938.115055628175 samples/s
+Epoch: 9 	Training Loss: 0.134306
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.223123550415039s, THROUGHPUT = 9636.31840412369 samples/s
+Epoch: 10 	Training Loss: 0.136679
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 5.992431163787842s, THROUGHPUT = 10007.290590567913 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 61.095502614974976s, AVG. THROUGHPUT = 9819.960460713733 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 61.098103046417236s, AVG. THROUGHPUT = 9819.408086118186 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 61.09931468963623s, AVG. THROUGHPUT = 9819.378405458076 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 61.10184097290039s, AVG. THROUGHPUT = 9818.786471315641 samples/s
+Test Loss: 0.477207
+
+Test Loss: 0.477207
+Test Loss: 0.477207
+
+
+
+Test Accuracy (Overall): 86.3900% (8639/10000)
+
+Test Accuracy (Overall): 86.3900% (8639/10000)
+Test Accuracy (Overall): 86.3900% (8639/10000)
+
+Test Loss: 0.477207
+
+
+Test Accuracy (Overall): 86.3900% (8639/10000)
+Best ips: 9819.960460713733, Latency: 0.006395337421331741, Best strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+})]) 
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2745 and data parallel seed: 27
+[35455] rank = 0, world_size = 4
+[35458] rank = 3, world_size = 4
+[35457] rank = 2, world_size = 4
+[35456] rank = 1, world_size = 4
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+optimal strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+})])
+Epoch: 1 	Training Loss: 0.211116
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.512449026107788s, THROUGHPUT = 7982.48344735452 samples/s
+Epoch: 2 	Training Loss: 0.185324
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.702834844589233s, THROUGHPUT = 7785.185741340907 samples/s
+Epoch: 3 	Training Loss: 3.577502
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.424670219421387s, THROUGHPUT = 8076.857049237855 samples/s
+Epoch: 4 	Training Loss: 0.187162
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.20050048828125s, THROUGHPUT = 8328.309969230248 samples/s
+Epoch: 5 	Training Loss: 0.129640
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.321910858154297s, THROUGHPUT = 8190.211703166883 samples/s
+Epoch: 6 	Training Loss: 0.125305
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.19208288192749s, THROUGHPUT = 8338.057414589815 samples/s
+Epoch: 7 	Training Loss: 0.129820
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.338721990585327s, THROUGHPUT = 8171.450025894363 samples/s
+Epoch: 8 	Training Loss: 0.133592
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.559567213058472s, THROUGHPUT = 7932.729256829766 samples/s
+Epoch: 9 	Training Loss: 0.137367
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.367074728012085s, THROUGHPUT = 8140.001590045175 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 73.8370008468628s, AVG. THROUGHPUT = 8125.421132268848 samples/s
+Epoch: 10 	Training Loss: 0.137579
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.216713905334473s, THROUGHPUT = 8309.599186919779 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 73.83822178840637s, AVG. THROUGHPUT = 8125.48853846093 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 73.84315824508667s, AVG. THROUGHPUT = 8124.645992130517 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 73.8634705543518s, AVG. THROUGHPUT = 8122.385501709352 samples/s
+Test Loss: 0.466514
+Test Loss: 0.466514
+
+Test Loss: 0.466514
+
+
+Test Loss: 0.466514
+
+
+Test Accuracy (Overall): 86.1700% (8617/10000)
+
+Test Accuracy (Overall): 86.1700% (8617/10000)
+
+Test Accuracy (Overall): 86.1700% (8617/10000)
+
+Test Accuracy (Overall): 86.1700% (8617/10000)
+Best ips: 8125.48853846093, Latency: 0.007701935864818007, Best strategy:
+OrderedDict([('seq.0', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.1', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.2', {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}), ('seq.3', {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+})]) 
+[85024] Initializing process group with: {'MASTER_ADDR': 'dudu-set-1.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '58501', 'RANK': '2', 'WORLD_SIZE': '4'}
+[85025] Initializing process group with: {'MASTER_ADDR': 'dudu-set-1.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '58501', 'RANK': '3', 'WORLD_SIZE': '4'}
+[85022] Initializing process group with: {'MASTER_ADDR': 'dudu-set-1.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '58501', 'RANK': '0', 'WORLD_SIZE': '4'}
+[85023] Initializing process group with: {'MASTER_ADDR': 'dudu-set-1.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '58501', 'RANK': '1', 'WORLD_SIZE': '4'}
+[85022] rank = 0, world_size = 4
+[85025] rank = 3, world_size = 4
+[85024] rank = 2, world_size = 4
+[85023] rank = 1, world_size = 4
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 3
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 115.94413661956787s, AVG. THROUGHPUT = 5172.504055796137 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 115.94704365730286s, AVG. THROUGHPUT = 5172.401052520489 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 115.94904589653015s, AVG. THROUGHPUT = 5172.296256242043 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 115.97547245025635s, AVG. THROUGHPUT = 5171.1340389532 samples/s
+Test Loss: 0.465074
+
+
+Test Accuracy (Overall): 86.4800% (8648/10000)
+[85024] rank = 2, world_size = 4
+Test Loss: 0.465074
+
+
+Test Accuracy (Overall): 86.4800% (8648/10000)
+[85025] rank = 3, world_size = 4
+Test Loss: 0.465074
+
+
+Test Accuracy (Overall): 86.4800% (8648/10000)
+[85023] rank = 1, world_size = 4
+Test Loss: 0.465074
+
+
+Test Accuracy (Overall): 86.4800% (8648/10000)
+[85022] rank = 0, world_size = 4
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 2initializing optimizer and loss  in global rank 3
+
+total trainable parameter amount: 2913290
+initializing optimizer and loss  in global rank 1
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 116.16137933731079s, AVG. THROUGHPUT = 5164.106849037311 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 116.16198778152466s, AVG. THROUGHPUT = 5164.145007974297 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 116.16642689704895s, AVG. THROUGHPUT = 5163.938533660541 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 116.17337560653687s, AVG. THROUGHPUT = 5163.635917224945 samples/s
+Test Loss: 0.375557
+
+
+Test Accuracy (Overall): 89.2200% (8922/10000)
+Rank: 0, ips: 5164.106849037311, 
+Test Loss: 0.375557
+
+
+Test Accuracy (Overall): 89.2200% (8922/10000)
+Test Loss: 0.375557
+
+
+Test Accuracy (Overall): 89.2200% (8922/10000)
+Test Loss: 0.375557
+
+
+Test Accuracy (Overall): 89.2200% (8922/10000)
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2773 and data parallel seed: 55
+[85701] rank = 1, world_size = 4
+[85703] rank = 3, world_size = 4
+[85700] rank = 0, world_size = 4
+[85702] rank = 2, world_size = 4
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+optimal latency: 0.0013282656669616698, optimal strategy:
+{'seq.0': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.1': {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.2': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.3': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}}
+Epoch: 1 	Training Loss: 0.208162
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.1395039558410645s, THROUGHPUT = 9767.56435557746 samples/s
+Epoch: 2 	Training Loss: 0.195147
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.165805101394653s, THROUGHPUT = 9725.899377915099 samples/s
+Epoch: 3 	Training Loss: 2.374966
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.305742263793945s, THROUGHPUT = 9510.062018284798 samples/s
+Epoch: 4 	Training Loss: 0.265216
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.159313201904297s, THROUGHPUT = 9736.150449608485 samples/s
+Epoch: 5 	Training Loss: 0.128722
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.245279312133789s, THROUGHPUT = 9602.13258732716 samples/s
+Epoch: 6 	Training Loss: 0.125897
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.1185142993927s, THROUGHPUT = 9801.072133794341 samples/s
+Epoch: 7 	Training Loss: 0.129505
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.106659412384033s, THROUGHPUT = 9820.09900181883 samples/s
+Epoch: 8 	Training Loss: 0.135455
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.068455934524536s, THROUGHPUT = 9881.920647858919 samples/s
+Epoch: 9 	Training Loss: 0.134140
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.183675050735474s, THROUGHPUT = 9697.792899526234 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 61.88112831115723s, AVG. THROUGHPUT = 9693.407230995965 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 61.88463234901428s, AVG. THROUGHPUT = 9692.630609810374 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 61.898250102996826s, AVG. THROUGHPUT = 9690.590803387862 samples/s
+Epoch: 10 	Training Loss: 0.136731
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 6.405017137527466s, THROUGHPUT = 9362.66035084326 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 61.89951133728027s, AVG. THROUGHPUT = 9690.535382255457 samples/s
+Test Loss: 0.465114
+
+Test Loss: 0.465114
+Test Loss: 0.465114
+
+
+
+Test Accuracy (Overall): 86.5000% (8650/10000)
+
+Test Accuracy (Overall): 86.5000% (8650/10000)
+
+Test Accuracy (Overall): 86.5000% (8650/10000)
+Test Loss: 0.465114
+
+
+Test Accuracy (Overall): 86.5000% (8650/10000)
+Best ips: 9690.535382255457, Latency: 0.0068356639674786186, Best strategy:
+{'seq.0': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.1': {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.2': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.3': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}} 
+> initializing model parallel with size 4
+> initializing ddp with size 1
+> initializing pipeline with size 1
+> initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 2775 and data parallel seed: 57
+[87553] rank = 2, world_size = 4
+[87552] rank = 1, world_size = 4
+[87551] rank = 0, world_size = 4
+[87554] rank = 3, world_size = 4
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+finding optimal strategy
+optimal latency: 0.0014862537384033204, optimal strategy:
+{'seq.0': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.1': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.2': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.3': {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}}
+Epoch: 1 	Training Loss: 0.213287
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.359360456466675s, THROUGHPUT = 8148.534149771952 samples/s
+Epoch: 2 	Training Loss: 0.184441
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.514471769332886s, THROUGHPUT = 7980.334724888293 samples/s
+Epoch: 3 	Training Loss: 1.699380
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.465745449066162s, THROUGHPUT = 8032.419590129607 samples/s
+Epoch: 4 	Training Loss: 0.128831
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.393468618392944s, THROUGHPUT = 8110.9426569845555 samples/s
+Epoch: 5 	Training Loss: 0.126525
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.4499733448028564s, THROUGHPUT = 8049.4247730207 samples/s
+Epoch: 6 	Training Loss: 0.129225
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.639023780822754s, THROUGHPUT = 7850.217739934985 samples/s
+Epoch: 7 	Training Loss: 0.132560
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.463101387023926s, THROUGHPUT = 8035.265352855342 samples/s
+Epoch: 8 	Training Loss: 0.133636
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.352759122848511s, THROUGHPUT = 8155.8499330749155 samples/s
+Epoch: 9 	Training Loss: 0.145027
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.4852614402771s, THROUGHPUT = 8011.477017665801 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 74.32910776138306s, AVG. THROUGHPUT = 8069.59098004541 samples/s
+Epoch: 10 	Training Loss: 2.712876
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 7.207390785217285s, THROUGHPUT = 8320.348068679352 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 74.33222651481628s, AVG. THROUGHPUT = 8069.481400700551 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 74.34125685691833s, AVG. THROUGHPUT = 8068.320083159486 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 74.34199976921082s, AVG. THROUGHPUT = 8068.371224832413 samples/s
+Test Loss: 0.460275
+
+Test Loss: 0.460275
+
+Test Loss: 0.460275
+
+
+Test Accuracy (Overall): 89.4400% (8944/10000)
+
+Test Accuracy (Overall): 89.4400% (8944/10000)
+
+Test Accuracy (Overall): 89.4400% (8944/10000)
+Test Loss: 0.460275
+
+
+Test Accuracy (Overall): 89.4400% (8944/10000)
+Best ips: 8069.481400700551, Latency: 0.007691985896710016, Best strategy:
+{'seq.0': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.1': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.2': {
+    "DataParallel": {
+        "gather_input": false,
+        "split_output": false,
+        "data_parallel_input": true
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}, 'seq.3': {
+    "DataParallel": {
+        "gather_input": true,
+        "split_output": false,
+        "data_parallel_input": false
+    },
+    "ModelParallel": {
+        "row_linear": false,
+        "input_is_parallel": false,
+        "column_linear": false,
+        "gather_output": false
+    }
+}} 
+[89630] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '35795', 'RANK': '3', 'WORLD_SIZE': '4'}
+[89628] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '35795', 'RANK': '1', 'WORLD_SIZE': '4'}
+[89629] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '35795', 'RANK': '2', 'WORLD_SIZE': '4'}
+[89627] Initializing process group with: {'MASTER_ADDR': 'dudu-set-0.dudu-jax.pelegdav.svc.cluster.local', 'MASTER_PORT': '35795', 'RANK': '0', 'WORLD_SIZE': '4'}
+[89627] rank = 0, world_size = 4
+[89629] rank = 2, world_size = 4
+[89630] rank = 3, world_size = 4
+[89628] rank = 1, world_size = 4
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 0
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+initializing optimizer and loss  in global rank 1
+initializing optimizer and loss  in global rank 3
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 64.78551387786865s, AVG. THROUGHPUT = 9265.923230942772 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 64.78700828552246s, AVG. THROUGHPUT = 9265.47019244673 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 64.79105472564697s, AVG. THROUGHPUT = 9264.93978296117 samples/s
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 64.79287910461426s, AVG. THROUGHPUT = 9264.197097366203 samples/s
+Test Loss: 0.392197
+
+
+Test Accuracy (Overall): 89.0200% (8902/10000)
+[89630] rank = 3, world_size = 4
+Test Loss: 0.392197
+
+
+Test Accuracy (Overall): 89.0200% (8902/10000)
+[89629] rank = 2, world_size = 4
+Test Loss: 0.392197
+
+
+Test Accuracy (Overall): 89.0200% (8902/10000)
+[89628] rank = 1, world_size = 4
+Test Loss: 0.392197
+
+
+Test Accuracy (Overall): 89.0200% (8902/10000)
+[89627] rank = 0, world_size = 4
+initializing optimizer and loss  in global rank 3
+initializing optimizer and loss  in global rank 0
+initializing optimizer and loss  in global rank 2
+initializing optimizer and loss  in global rank 1
+total trainable parameter amount: 2913290
+model: 
+DistributedDataParallel(
+  (module): Net(
+    (seq): ModuleList(
+      (0): Linear(in_features=784, out_features=1024, bias=True)
+      (1): Linear(in_features=1024, out_features=1024, bias=True)
+      (2): Linear(in_features=1024, out_features=1024, bias=True)
+      (3): Linear(in_features=1024, out_features=10, bias=True)
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+)
+RANK = 0, GPU AMOUNT = 4, ELAPSED TIME = 63.11306118965149s, AVG. THROUGHPUT = 9503.66970735521 samples/s
+RANK = 3, GPU AMOUNT = 4, ELAPSED TIME = 63.11928176879883s, AVG. THROUGHPUT = 9502.838911159943 samples/s
+RANK = 2, GPU AMOUNT = 4, ELAPSED TIME = 63.129077672958374s, AVG. THROUGHPUT = 9501.359842729895 samples/s
+RANK = 1, GPU AMOUNT = 4, ELAPSED TIME = 63.134374141693115s, AVG. THROUGHPUT = 9500.58195445919 samples/s
+Test Loss: 0.572482
+
+
+Test Accuracy (Overall): 88.8700% (8887/10000)
+Test Loss: 0.572482
+
+
+Test Accuracy (Overall): 88.8700% (8887/10000)
+Rank: 0, ips: 9503.66970735521, 
+Test Loss: 0.572482
+
+
+Test Accuracy (Overall): 88.8700% (8887/10000)
+Test Loss: 0.572482
+
+
+Test Accuracy (Overall): 88.8700% (8887/10000)

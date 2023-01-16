@@ -1,0 +1,98 @@
+{
+    "seq.fc0": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false
+        },
+        "ModelParallel": {
+            "row_linear": true,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.fc1": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false
+        },
+        "ModelParallel": {
+            "row_linear": true,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.fc2": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false
+        },
+        "ModelParallel": {
+            "row_linear": true,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.fc3": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false
+        },
+        "ModelParallel": {
+            "row_linear": true,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.fc4": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.fc5": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.fc6": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false
+        },
+        "ModelParallel": {
+            "row_linear": false,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    },
+    "seq.fc7": {
+        "DataParallel": {
+            "gather_input": false,
+            "split_output": false
+        },
+        "ModelParallel": {
+            "row_linear": true,
+            "input_is_parallel": false,
+            "column_linear": false,
+            "gather_output": false
+        }
+    }
+}
